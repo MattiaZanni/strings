@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="stererwg.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="50"
+            Padding="30,0"
+            VerticalOptions="Center">
+            <Editor
+                x:Name="StringIn"
+                Text="parola"
+                FontSize="18"
+                HorizontalOptions="Center" 
+                HeightRequest="200"
+                WidthRequest="500"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center"/>
+
+            <Label
+                Text="Il converti stringhe"
+                x:Name="StringOut"
+                FontSize="36"
+                HorizontalOptions="Center"/>
+
+            <Button
+                x:Name="Pulsante"
+                Text="Cliccami"
+                Clicked="ButStr"
+                HorizontalOptions="Center"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
+

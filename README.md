@@ -54,3 +54,14 @@ Nella versione successiva da consegnare entro --/aprile/2023 il programma dovrà
 ( "ciao.oaic" non è palindroma)
  
 altre che prevedono l'uso di operatori and, or, xor ...
+
+
+
+
+
+
+
+
+
+
+
